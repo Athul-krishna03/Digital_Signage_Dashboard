@@ -50,10 +50,10 @@ Uses TanStack Query to re-fetch and update UI after add/edit/delete.
 📂 Project Structure (important files)
 src/
  ├── api/
- ├    ├── contentApi.ts
+ |    ├── contentApi.ts
  ├── components/
- ├    ├── Header.tsx  
- ├    ├── Sidebar.tsx  
+ |    ├── Header.tsx  
+ |    ├── Sidebar.tsx  
  │    ├── Content.tsx          # Main content area (table, filter, add button)
  │    ├── AddContentModal.tsx  # Modal for add/edit
  │    └── ui/Modal.tsx         # Reusable modal component
