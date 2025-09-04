@@ -48,25 +48,29 @@ All data is read/written from db.json via json-server.
 Uses TanStack Query to re-fetch and update UI after add/edit/delete.
 
 📂 Project Structure (important files)
-src/
- ├── api/
- |    ├── contentApi.ts
- ├── components/
- |    ├── Header.tsx  
- |    ├── Sidebar.tsx  
- │    ├── Content.tsx          # Main content area (table, filter, add button)
- │    ├── AddContentModal.tsx  # Modal for add/edit
- │    └── ui/Modal.tsx         # Reusable modal component
- │
- ├── hooks/
- │    └── useContent.ts        # React Query hooks (get, add, edit, delete)
- │
- ├── types/
- │    └── contentType.ts       # TypeScript types
- ├── pages/
- |    ├── Dashboard.tsx        #Dashboard Page
- │
- └── App.tsx
+
+               src/
+                ├── api/
+                │    └── contentApi.ts
+                │
+                ├── components/
+                │    ├── Header.tsx  
+                │    ├── Sidebar.tsx  
+                │    ├── Content.tsx          # Main content area (table, filter, add button)
+                │    ├── AddContentModal.tsx  # Modal for add/edit
+                │    └── ui/
+                │         └── Modal.tsx       # Reusable modal component
+                │
+                ├── hooks/
+                │    └── useContent.ts        # React Query hooks (get, add, edit, delete)
+                │
+                ├── types/
+                │    └── contentType.ts       # TypeScript types
+                │
+                ├── pages/
+                │    └── Dashboard.tsx        # Dashboard Page
+                │
+                └── App.tsx
 
 ⚛️ React + TypeScript
 
