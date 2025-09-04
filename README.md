@@ -7,7 +7,7 @@ Built with React + TypeScript + Tailwind + TanStack Query, using json-server as 
 1. Clone the repo
      
        git clone https://github.com/Athul-krishna03/Digital_Signage_Dashboard.git
-       cd 
+       cd Digital_Signage_Dashboard
 
 2. Install dependencies
 
