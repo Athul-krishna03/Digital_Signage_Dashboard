@@ -1,0 +1,64 @@
+{
+  "content": [
+    {
+      "id": 3,
+      "title": "Special Offer",
+      "type": "text",
+      "schedule": 3
+    },
+    {
+      "id": 4,
+      "title": "New Arrivals Poster",
+      "type": "image",
+      "schedule": 4
+    },
+    {
+      "id": 5,
+      "title": "Ad Video - Shoes",
+      "type": "video",
+      "schedule": 6
+    },
+    {
+      "id": 6,
+      "title": "Discount Banner",
+      "type": "image",
+      "schedule": 3
+    },
+    {
+      "id": 7,
+      "title": "Store Info",
+      "type": "text",
+      "schedule": 2
+    },
+    {
+      "id": 8,
+      "title": "Festival Offer Poster",
+      "type": "image",
+      "schedule": 4
+    },
+    {
+      "id": 9,
+      "title": "Ad Video - Gadgets",
+      "type": "video",
+      "schedule": 7
+    },
+    {
+      "id": 10,
+      "title": "Closing Message",
+      "type": "text",
+      "schedule": 2
+    },
+    {
+      "title": "Sample 2",
+      "type": "image",
+      "schedule": 10,
+      "id": 12
+    },
+    {
+      "title": "Sample3",
+      "type": "image",
+      "schedule": 50,
+      "id": 13
+    }
+  ]
+}
